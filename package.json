@@ -1,0 +1,18 @@
+{
+  "name": "red-ducks",
+  "version": "0.0.1",
+  "description": "Global State Management using context and hooks",
+  "main": "dist.js",
+  "scripts": {
+    "build": "uglifyjs index.js -c -m -o dist.js"
+  },
+  "author": "Jon Rose <jrose@carecloud.com>",
+  "files": [
+    "dist.js",
+    "package.json"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": { "react": "^16.8.0" },
+  "devDependencies": { "uglify-js": "^3.4.9"}
+}
